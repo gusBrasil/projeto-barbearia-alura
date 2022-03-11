@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contato</title>
+        <link rel="stylesheet" href="style-contato.css">
+        <link rel="stylesheet" href="reset.css">
+    </head>
+    <body>
+        <header>
+            <div class="caixa"></div>
+            <nav>
+                <a href="index.html"><img src="foto-perfil.png" class="foto-perfil"></a>
+                <h1 class="nome">Gustavo Brasil</h1>
+                <!-- Pequena função para criar um botão que ao clicado ativa o Modo Escuro -->
+                <button onclick="myFunction()">Modo Escuro &#9729;</button>
+                <script>
+                    function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                    }
+                </script>
+                <ul>
+                    <li><a href="index.html">Sobre Mim</a></li>
+                    <li><a href="curriculo.html">Currículo</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <form>
+                <label for="nomesobrenome">Nome e sobrenome</label>
+                <input type="text" id="nomesobrenome" placeholder="Não funcionando no momento"> 
+
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Não funcionando no momento">
+
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" placeholder="Não funcionando no momento">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="30" rows="10" id="mensagem" placeholder="Não funcionando no momento"></textarea>
+
+                <div>
+                    <p>Como prefere que eu o contate?</p>
+                    <label for="radio-email">Email</label>
+                    <input type="radio" name="contato" value="email" id="radio-email">
+
+                    <label for="radio-telefone">Telefone</label>
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+                    <label for="radio-whatsapp">WhatsApp</label>
+                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                </div>
+
+                <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+        
+                <input type="submit" value="Enviar formulário (Ainda não foi implementado)">
+
+                
+
+            </form>
+        </main>
+        
+        <footer>
+            <div class="caixa-rodape">
+                <h1> &copy; Gustavo Brasil 2022</h1>
+                <a href="https://github.com/gusBrasil" target="_blank" rel="noopener noreferrer">
+                    <img href="index.html" src="icon-github.png" class="icons"></a>
+                <a href="https://www.linkedin.com/in/gustavo-brasil-0ab0a7233/" target="_blank" rel="noopener noreferrer">
+                    <img href="index.html" src="icon-linkedin.png" class="icons"></a>
+            </div>
+        </footer>
+    </body>
+
+</html>

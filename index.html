@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa"></div>
+        <nav>
+            <a href="index.html"><img src="foto-perfil.png" class="foto-perfil"></a>
+            <h1 class="nome">Gustavo Brasil</h1>
+            <!-- Pequena função para criar um botão que ao clicado ativa o Modo Escuro -->
+            <button onclick="myFunction()">Modo Escuro &#9729;</button>
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                }
+            </script>
+            <ul>
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="apresentacao">
+            <script>
+                let user = prompt("Oi! Qual seu nome?");
+                localStorage.user;
+                document.write("Olá " + user + ", eu sou o Gustavo!")
+            </script>
+            <p><br>Eu sou um jovem de 20 anos, morador do Rio de Janeiro. Estou cursando Sistemas de Informação na
+                Universidade Veiga de Almeida, no primeiro período.</p> <br>
+            <p>Sou apaixonado por computação, tendo meus maiores interesses na área de backend e devOps.
+                Busco no futuro trabalhar como Administrador de Sistemas. Tenho conhecimentos em Linux, virtualização,
+                HTML, CSS, JavaScript, Java e Python básicos.</p>
+            <p><br>Sou fascinado por computação, tendo começado a estudá-la aos 16 anos. Desde então nunca mais consegui parar. 
+            Sou muito curioso e tenho bastante vontade de aprender. No momento estudo pela plataforma de cursos Alura, tendo conseguido um total de 12 certificados por lá, 
+            porém também estudo por fora, e estou constantemente atrás de novas fontes de conhecimentos.</p>
+            <p><br>Decidi fazer essa página para estudos de desenvolvimento web, e vou atualizando-a conforme vou aprendendo mais e mais. Outras funcionalidades serão implementadas
+            como um jogo feito em JavaScript integrado à página, a opção de contato e armazenamento de informações, através de bancos de dados. </p>
+            <img class="eu" href="index.html" src="eu-sem-fundo.png">
+        </div>
+    </main>
+
+    <footer>
+        <div class="caixa-rodape">
+            <h1> &copy; Gustavo Brasil 2022</h1>
+            <a href="https://github.com/gusBrasil" target="_blank" rel="noopener noreferrer">
+                <img href="index.html" src="icon-github.png" class="icons"></a>
+            <a href="https://www.linkedin.com/in/gustavo-brasil-0ab0a7233/" target="_blank" rel="noopener noreferrer">
+                <img href="index.html" src="icon-linkedin.png" class="icons"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+/* Tudo referente a Header */
+header {
+    position: relative;
+    background-color: #FD974C;
+    padding-top: 20px 0;
+    /*background-color: #F1019C;*/
+}
+
+.caixa {
+    position: relative;
+    width: fill;
+    margin-top: 1.4%;
+}
+
+header img {
+    max-width: 115px;
+    position: relative;
+    left: 3%;
+    top: 2rem;
+    padding: 0.1%;
+    border: #000000 solid 2px;
+    border-radius: 100%;
+}
+
+.nome {
+    text-align: right;
+    position:relative;
+    font-size: 40px;
+    right: 1%;
+    bottom: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#000000;
+}
+
+nav ul{
+    position: relative;
+    display: inline;
+    left: 3%;
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline;
+    position: relative;
+    font-size: 21px;
+    left: 3%;
+    margin-left: 12%;
+    margin-right: 1%;
+}
+
+nav li a {
+    color:#000000;
+    text-decoration: none;
+    position: relative;
+    bottom: 4.7rem;
+}
+
+nav li a:hover {
+    display: inline-block;
+    transform: scale(1.15);
+    color: #FFFFFF;
+    border-bottom:#FFFFFF solid 2px;
+    border-spacing: 30px;
+}
+
+button {
+    position: relative;
+    left: 92%;
+    bottom: 170px;
+    border-radius: 20%;
+    background-color: #555555;
+    color: #FFFFFF
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: #FFFFFF;      
+}
+
+/* Tudo referente a main */
+
+
+.apresentacao {
+    font-size: 45px;
+    border: #000000 solid 3px;
+    padding: 5%;
+    margin: 1%;
+}
+
+.apresentacao p {
+    font-size: 21px;
+    width: 28%;
+}
+
+.eu {
+    position: relative;
+    left: 80%;
+    bottom: 23rem;
+}
+
+.apresentacao:hover {
+    border: #FD974C solid 3px;
+    transform: scale(1.005);
+}
+
+/* Tudo referente ao Footer */
+
+footer {
+    background-color: #FD974C;
+    position: relative;
+}
+
+/* relacionado ao nome no footer */
+footer h1 {
+    color: #000000;
+    text-decoration: solid;
+    font-size: 30px;
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    top: 2.7rem;
+}
+
+/* relacionado a caixa laranja no footer */
+.caixa-rodape {
+    max-width: 100%;
+    bottom: 50%;
+    padding: 1%;
+    margin: 1%;
+}
+
+/* relacionado aos ícones de redes sociais no footer */
+.icons {
+    display: inline-flex;
+    position: relative;
+    max-width: 75px;
+    left: 90%;
+    align-items: right;
+    justify-content: right;
+    bottom: 1.5rem;
+}
