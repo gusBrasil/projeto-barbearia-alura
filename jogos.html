@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pagina Inicial</title>
+    <link rel="stylesheet" href="style-jogos.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <div class="body-total">
+        <header>
+            <div class="caixa"></div>
+            <nav>
+                <a href="index.html"><img src="foto-perfil.png" class="foto-perfil"></a>
+                <h1 class="nome">Gustavo Brasil</h1>
+                <!-- Pequena função para criar um botão que ao clicado ativa o Modo Escuro -->
+                <button onclick="myFunction()">Modo Escuro &#9729;</button>
+                <script>
+                    function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                    }
+                </script>
+                <ul>
+                    <li><a href="index.html">Sobre Mim</a></li>
+                    <li><a href="curriculo.html">Currículo</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="jogos.html">Jogos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <a href="jogo-freeway-main/pagina-jogo.html" target="_blank" rel="noopener noreferrer"> 
+                <img src="jogo-freeway-main/imagens-e-sons/ator-1.png"> </a>
+                <h1 class="descricao"> Tentativa de recriar o clássico jogo Freeway</h1>
+        </main>
+
+        <footer>
+            <div class="caixa-rodape">
+                <h1> &copy; Gustavo Brasil 2022</h1>
+                <a href="https://github.com/gusBrasil" target="_blank" rel="noopener noreferrer">
+                    <img href="index.html" src="icon-github.png" class="icons"></a>
+                <a href="https://www.linkedin.com/in/gustavo-brasil-0ab0a7233/" target="_blank" rel="noopener noreferrer">
+                    <img href="index.html" src="icon-linkedin.png" class="icons"></a>
+            </div>
+        </footer>
+    </div>
+</html>

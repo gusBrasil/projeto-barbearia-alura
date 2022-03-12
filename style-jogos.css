@@ -81,7 +81,22 @@ button {
     color: #FFFFFF;      
 }
 
-/* Tudo referente ao Footer */
+/* Tudo referente ao main */
+
+main {
+    margin: 5rem;
+    display: flex;
+}
+
+.descricao {
+    position: relative;
+    left: 10%;
+    top: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+}
+
+/* Tudo referente ao footer */
 
 footer {
     background-color: #FD974C;

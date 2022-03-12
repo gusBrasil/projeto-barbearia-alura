@@ -1,3 +1,7 @@
+.body-total {
+    overflow-x: hidden;
+}
+
 /* Tudo referente a Header */
 header {
     position: relative;
@@ -44,7 +48,7 @@ nav li {
     position: relative;
     font-size: 21px;
     left: 3%;
-    margin-left: 12%;
+    margin-left: 8%;
     margin-right: 1%;
 }
 
@@ -101,7 +105,7 @@ form input {
 
 footer {
     background-color: #FD974C;
-    position: relative;
+    position: relative; 
 }
 
 /* relacionado ao nome no footer */
@@ -117,7 +121,7 @@ footer h1 {
 
 /* relacionado a caixa laranja no footer */
 .caixa-rodape {
-    max-width: 100%;
+    max-width: fill;
     bottom: 50%;
     padding: 1%;
     margin: 1%;
@@ -128,7 +132,8 @@ footer h1 {
     display: inline-flex;
     position: relative;
     max-width: 75px;
-    left: 90%;
+    left: 88%;
+    padding-right: 2em;
     align-items: right;
     justify-content: right;
     bottom: 1.5rem;
