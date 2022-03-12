@@ -9,7 +9,7 @@ var teclaCima = 38;
 var teclaBaixo = 40;
 var teclaEsquerda = 37;
 var teclaDireita = 39;
-var taxaTeclado = 4;
+var taxaTeclado = 6;
 
 function movimentoPersonagem(evento){
     if(evento.keyCode == teclaCima){
