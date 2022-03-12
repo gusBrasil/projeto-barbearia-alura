@@ -91,9 +91,9 @@ main {
 .descricao {
     position: relative;
     left: 10%;
-    top: 3rem;
+    top: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
+    font-size: larger;
 }
 
 /* Tudo referente ao footer */
