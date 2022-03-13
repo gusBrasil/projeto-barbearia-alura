@@ -4,19 +4,18 @@
 
 /* Tudo referente a Header */
 header {
-    position: relative;
     background-color: #FD974C;
     padding-top: 20px 0;
     /*background-color: #F1019C;*/
 }
 
 .caixa {
-    position: relative;
     width: fill;
     margin-top: 1.4%;
 }
 
-header img {
+.foto-perfil {
+    position: relative;
     max-width: 115px;
     left: 3%;
     top: 2rem;
@@ -27,7 +26,7 @@ header img {
 
 .nome {
     text-align: right;
-    position:relative;
+    position: relative;
     font-size: 40px;
     right: 1%;
     bottom: 3rem;
@@ -36,7 +35,6 @@ header img {
 }
 
 nav ul{
-    position: relative;
     display: inline;
     left: 3%;
     text-transform: uppercase;
@@ -90,13 +88,19 @@ button {
     margin: 1%;
 }
 
+.apresentacao1 {
+    font-size: 45px;
+    border: #FFFFFF solid 3px;
+    padding: 5%;
+    margin: 1%;
+}
+
 .apresentacao p {
     font-size: 21px;
     width: 30em;
 }
 
 .eu {
-    position: absolute;
     right: 10%;
     width: 25%;
     top: 25%;

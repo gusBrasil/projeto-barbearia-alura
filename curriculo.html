@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Curriculo</title>
-        <link rel="stylesheet" href="style-curriculo.css">
-        <link rel="stylesheet" href="reset.css">
-    </head>
-    <body>
-        <div class="body-total">
-            <header>
-                <div class="caixa"></div>
-                <nav>
-                    <a href="index.html"><img src="foto-perfil.png" class="foto-perfil"></a>
-                    <h1 class="nome">Gustavo Brasil</h1>
-                    <!-- Pequena função para criar um botão que ao clicado ativa o Modo Escuro -->
-                    <button onclick="myFunction()">Modo Escuro &#9729;</button>
-                    <script>
-                        function myFunction() {
-                            var element = document.body;
-                            element.classList.toggle("dark-mode");
-                        }
-                    </script>
-                    <ul>
-                        <li><a href="index.html">Sobre Mim</a></li>
-                        <li><a href="curriculo.html">Currículo</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                        <li><a href="jogos.html">Jogos</a></li>
-                    </ul>
-                </nav>
-            </header>
 
-            <main>
-                <h1> Está para ser adicionado</h1>
-            </main>
-            
-            <footer>
-                <div class="caixa-rodape">
-                    <h1> &copy; Gustavo Brasil 2022</h1>
-                    <a href="https://github.com/gusBrasil" target="_blank" rel="noopener noreferrer">
-                        <img href="index.html" src="icon-github.png" class="icons"></a>
-                    <a href="https://www.linkedin.com/in/gustavo-brasil-0ab0a7233/" target="_blank" rel="noopener noreferrer">
-                        <img href="index.html" src="icon-linkedin.png" class="icons"></a>
-                </div>
-            </footer>
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="style-curriculo.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+    <div class="body-total">
+        <header>
+            <div class="caixa"></div>
+            <nav>
+                <a href="index.html"><img src="foto-perfil.png" class="foto-perfil"></a>
+                <h1 class="nome">Gustavo Brasil</h1>
+                <!-- Pequena função para criar um botão que ao clicado ativa o Modo Escuro -->
+                <button onclick="myFunction()">Modo Escuro &#9729;</button>
+                <script>
+                    function myFunction() {
+                        var element = document.body;
+                        element.classList.toggle("dark-mode");
+                    }
+                </script>
+                <ul>
+                    <li><a href="index.html">Sobre Mim</a></li>
+                    <li><a href="curriculo.html">Currículo</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="jogos.html">Jogos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="conteudo">
+                <h1 class="info">Informações:</h1> <br>
+                <p>Nome: Gustavo Medeiros Brasil | Residência: Rio de Janeiro, RJ - Vila Valqueire | <br>Cursando Sistemas de Informação na Universidade 
+                    Veiga de Almeida, atualmente no primeiro período.
+                </p>
+                <br><br>
+                <h1>Contato:</h1><br>
+                <p>Telefone: (21) 3357-7605 | Celular: (21) 97009-3454 | E-mail: gustavombrasilcontato@gmail.com</p><br><br>
+                <h1>Resumo:</h1><br>
+                <p>Projeto de desenvolvedor Back-end, buscando estágios para ingressar no mercado de trabalho, com conhecimentos em
+                    Linux, Desenvolvimento Web, Python, JavaScript, Java e bancos de dados. Possuo experiência prática com
+                    manutenção de redes e computadores e programação orientada a objetos. Sou focado, estudioso e cheio de vontade de aprender,
+                    buscando expandir meus conhecimentos de todas as formas possíveis.</p><br><br>
+                <h1>Habilidades:</h1><br>
+                <p>Cursos e competências:<br><br> HTML e CSS, JavaScript, Linux LPI Essentials, Java, Arquitetura de Computadores, Lógica de programação,
+                Excel avançado, pacote Office, Inglês fluente, Espanhol intermediário, Gestão de equipes, Diagnóstico e resolução de problemas.</p><br>
+                <p>Habilidades interpessoais:<br><br> Comunicação, Liderança, Autonomia, Inteligência Emocional, Visão analítica, Trabalho em equipe.</p><br><br>
+                <h1>Certificados:</h1><br>
+                <ul>
+                    <li><a href="certificados/java-basico.png" target="_blank" rel="noopener noreferrer">Linguagem de Programação Java - Básico</a></li>
+                    <li><a href="certificados/certificado-git.png" target="_blank" rel="noopener noreferrer">Git e GitHub: Controle Compartilhe seu código</a></li>
+                    <li><a href="certificados/linux-1.png" target="_blank" rel="noopener noreferrer">Linux I: Conhecendo e utilizando o terminal</a></li>
+                    <li><a href="certificados/linux-2.png" target="_blank" rel="noopener noreferrer">Linux II: Programas, processos e pacotes </a></li>
+                    <li><a href="certificados/linux-lpi-1.png" target="_blank" rel="noopener noreferrer">Certificação Linux LPI Essentials parte 1: Evolution and Distributions </a></li>
+                    <li><a href="certificados/linux-lpi-2.png" target="_blank" rel="noopener noreferrer">Certificação Linux LPI Essentials parte 2: Open Source Software and Licensing</a></li> 
+                    <li><a href="certificados/logica.png" target="_blank" rel="noopener noreferrer">Lógica de programação I: os primeiros programas com Javascript e HTML</a></li>
+                    <li><a href="certificados/jogos-1.png" target="_blank" rel="noopener noreferrer">Jogos clássicos parte 1: iniciando no Javascript com Pong </a></li>
+                    <li><a href="certificados/jogos-2.png" target="_blank" rel="noopener noreferrer">Jogos clássicos parte 2: laços e listas com Javascript </a></li>
+                    <li><a href="certificados/arquitetura.png" target="_blank" rel="noopener noreferrer">Arquitetura de computadores: Por trás de como seu programa funciona</a> </li>
+                    <li><a href="certificados/fund-js.png" target="_blank" rel="noopener noreferrer">Fundamentos do JavaScript: Tipos, variáveis e funções</a> </li>
+                    <li><a href="certificados/html-1.png" target="_blank" rel="noopener noreferrer">HTML5 e CSS3 parte 1: A primeira página da Web</a></li>
+                    <li><a href="certificados/html-2.png" target="_blank" rel="noopener noreferrer">HTML5 e CSS3 parte 2: Posicionamento, listas e navegação</a></li>
+                </ul><br><br>
+                <h1>Experiência:</h1><br>
+                <h3>Auxiliar Administrativo:<br>
+                    Pantone Lavanderia<br> 
+                    10/2021 - Atualmente<br></h3>
+                   
+                   <p><br>Responsável por realizar gestão da equipe, administrar processos logísticos, controle de entrada de produtos e emissão de notas fiscais.
+                   <br>Realizei a implementação de bancos de dados  com a finalidade de gerenciamento de produtos, para melhor controle de estoque.
+                   <br>Era responsável pela manutenção e organização dos computadores.
+                   <br>Fui responsável por criar, integrar e administrar a página web da empresa.</p>
+            </div>
+        </main>
+
+        <footer>
+            <div class="caixa-rodape">
+                <h1> &copy; Gustavo Brasil 2022</h1>
+                <a href="https://github.com/gusBrasil" target="_blank" rel="noopener noreferrer">
+                    <img href="index.html" src="icon-github.png" class="icons"></a>
+                <a href="https://www.linkedin.com/in/gustavo-brasil-0ab0a7233/" target="_blank"
+                    rel="noopener noreferrer">
+                    <img href="index.html" src="icon-linkedin.png" class="icons"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
