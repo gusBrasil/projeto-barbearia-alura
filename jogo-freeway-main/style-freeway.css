@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+}
+
+.tutorial {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #FD974C;
+    overflow-x: hidden;
+    width: fill;
+}
+
+.sinopse {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.tela {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    margin:5% 0;
+}
+
+footer {
+    padding: 0.5rem;
+    background-color: #FD974C;
+}

@@ -1,18 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freeway Game</title>
-</head>
-<body>
-    <canvas></canvas>
-    <script src="imagens.js"></script>
-    <script src="personagem.js"></script>
-    <script src="carros.js"></script>
-    <script src="colisao.js"></script>
-    <script src="audios.js"></script>
-    <script src="main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Freeway Game</title>
+        <link rel="stylesheet" href="style-freeway.css">
+    </head>
+    <body>
+        <header>
+        <div class="tutorial"> 
+            <p class="sinopse">Rápido, a vaquinha precisa chegar ao outro lado da rua! Corra para atravessar e ganhar pontos, porém cuidado com os carros na pista!</p>
+            <ul>
+                <li>Use as setas do teclado para navegar pela estrada.</li>
+                <li>Chegue ao outro lado e ganhe 1 ponto.</li>
+                <li>Seja atropelado e perca 1 ponto.</li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="tela">
+                <canvas></canvas>
+
+                <script src="imagens.js"></script>
+                <script src="personagem.js"></script>
+                <script src="carros.js"></script>
+                <script src="colisao.js"></script>
+                <script src="audios.js"></script>
+                <script src="main.js"></script>
+            </div>
+        </main>
+
+        <footer>
+        <p>Em breve serão adicionadas novas funcionalidades como a opção de alternar entre um modo fácil e um modo difícil e um placar de recorde para os jogadores 
+            que acumularem mais pontos.</p>
+        </footer>
+    </body>
 </html>
