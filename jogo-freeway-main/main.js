@@ -10,5 +10,5 @@ function atualizaTela(){
     verificaPontos();
 }
 
-setInterval(atualizaTela, 50);
+setInterval(atualizaTela, 20);
 setInterval(mostraPontuacao, 1);
